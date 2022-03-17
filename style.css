@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.Principal{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    position: relative;
+    top: 0;
+}
+
+.logoSuperior{
+    position: absolute;
+    width: 250px;
+    height: auto;
+}
+
+.logoSuperior img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+nav{
+    position: absolute;
+    display: flex;
+    right: 30px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+nav ol{
+    word-spacing: 40px;
+    text-decoration: none;
+    margin-right: 45px;
+}
+
+section{
+    display: flex;
+}
+
+aside{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.bannerPrincipal{
+    margin-top: 50px;
+}
+
